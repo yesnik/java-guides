@@ -84,6 +84,7 @@ It also should never be used for precise values, such as currency.
 double d = 3.14159;
 double dMax = 1.7976931348623157E+308; // which is approximately 17 followed by 307 zeros
 double dMin = 4.9E-324; // which is 324 decimal places
+double gdp = 12237700000; // doubles can have values bigger than what an int could hold
 ```
 Size: 8 byte
 
