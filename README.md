@@ -20,3 +20,14 @@ public class Hello {
   }
 } 
 ```
+Compile this file to `Hello.class`:
+
+```bash
+javac Hello.java
+```
+
+Run compiled file:
+
+```bash
+java Hello.class
+```
