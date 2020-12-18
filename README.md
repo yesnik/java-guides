@@ -29,5 +29,5 @@ javac Hello.java
 Run compiled file:
 
 ```bash
-java Hello.class
+java Hello
 ```
