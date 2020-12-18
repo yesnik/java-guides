@@ -77,11 +77,13 @@ Size: 4 byte
 
 ### double
 
-Its value range is unlimited. The double data type is generally used for decimal values just like float. 
-The double data type also should never be used for precise values, such as currency.
+The double data type is generally used for decimal values just like float. 
+It also should never be used for precise values, such as currency.
 
 ```java
 double d = 3.14159;
+double dMax = 1.7976931348623157E+308; // which is approximately 17 followed by 307 zeros
+double dMin = 4.9E-324; // which is 324 decimal places
 ```
 Size: 8 byte
 
