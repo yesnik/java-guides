@@ -20,11 +20,14 @@ public class Hello {
   }
 } 
 ```
-Compile this file to `Hello.class`:
+
+Compile this file:
 
 ```bash
 javac Hello.java
 ```
+
+File `Hello.class` will be created. It contains Java bytecode, ready to be executed by the Java Virtual Machine.
 
 Run compiled file:
 
